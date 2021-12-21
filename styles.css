@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-pic {
+    width: 40%;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 320px;
+    border-radius: 320px;
+    margin-top: 100px;
+}
+
+.profile-title {
+    vertical-align: top;
+    width: 59%;
+}
+
+.profile-title h1 {
+    font-size: 58px;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.profile-title h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: -26px;
+}
+
+.main {
+    padding-left: 80px;
+    padding-right: 180px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.main h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.main h2 {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.main h3 {
+    color: #f27609;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.main p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.cv-pic {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.caminho {
+    list-style: none;
+    padding-left: 0;
+    color: grey;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: grey;
+}
